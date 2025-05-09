@@ -35,6 +35,10 @@ pip install -r requirements.txt
 - **Output**: Classification label: `"Spam"` or `"Ham"`
   
 ---
+## Screenshots
+![image](https://github.com/user-attachments/assets/30d52cbb-24a7-4202-8b10-8b305e4d4b7a)
+
+---
 
 ## Notebook
 https://colab.research.google.com/drive/1wSl00qLlK3qz2mx8ss7KBvd5DnJNSwJk?usp=sharing
