@@ -1,23 +1,22 @@
 # 📩 SMS Spam Classifier
 
-A simple web app built with Streamlit that classifies SMS messages as **Spam** or **Ham** using a trained `Multinomial Naive Bayes` model.
+This is a simple and interactive web app built using **Streamlit** that classifies SMS messages as **Spam** or **Ham** using a trained **Multinomial Naive Bayes** model.
 
 ---
 
 ## 🚀 Features
 
-- Input any SMS text and get an instant classification.
-- Built using Scikit-learn for machine learning.
-- `CountVectorizer` for text preprocessing.
-- Lightweight and interactive UI powered by Streamlit.
+- 🔤 Enter any SMS message and instantly check if it's spam.
+- 🧠 Uses CountVectorizer for text preprocessing.
+- 🤖 Powered by Scikit-learn’s MultinomialNB classifier.
+- 🖱️ Clean Streamlit interface with input form, result display, and reset button.
+- ⚡ Fast, lightweight, and easy to deploy locally or on the cloud.
 
 ---
 
 ## 📦 Requirements
 
-Install required Python packages using:
+Install the required Python packages:
 
 ```bash
 pip install -r requirements.txt
-
-
