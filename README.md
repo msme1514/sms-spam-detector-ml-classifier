@@ -20,6 +20,8 @@ Install required Python packages using:
 ```bash
 pip install -r requirements.txt
 
+---
+
 ## Project Structure
 ├── app.py                      # Streamlit frontend
 ├── spam_predictor.py          # Prediction helper class
@@ -28,7 +30,7 @@ pip install -r requirements.txt
 ├── README.md                  # Project overview
 └── requirements.txt           # Python dependencies
 
-
+---
 🧠 Model Info
 Trained using Scikit-learn's MultinomialNB.
 
