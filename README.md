@@ -20,3 +20,28 @@ Install the required Python packages:
 
 ```bash
 pip install -r requirements.txt
+```
+
+
+## 🧠 Model Info
+
+- **Algorithm**: Multinomial Naive Bayes (`MultinomialNB`)
+- **Text Preprocessing**: `CountVectorizer` from Scikit-learn
+- **Training Data**: SMS text labeled as `spam` or `ham`
+- **Model Files**:
+  - `sms_spam_classifier_model.joblib`: Trained Naive Bayes model
+  - `vectorizer.joblib`: Fitted `CountVectorizer`
+- **Input**: Raw text from user
+- **Output**: Classification label: `"Spam"` or `"Ham"`
+  
+---
+
+## Notebook
+https://colab.research.google.com/drive/1wSl00qLlK3qz2mx8ss7KBvd5DnJNSwJk?usp=sharing
+
+##  🙌 Acknowledgments
+Scikit-learn – For the machine learning tools.
+
+Streamlit – For the web app framework.
+
+Inspired by classic spam detection datasets and tutorials.
